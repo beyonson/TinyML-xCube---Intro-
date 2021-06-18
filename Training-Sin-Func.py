@@ -132,7 +132,7 @@ open(tflite_model_name + '.tflite', 'wb').write(tflite_model)
 # In[13]:
 
 
-# function converting hex to C
+# function converting to HEX for C
 def hex_to_c_array(hex_data, var_name):
     
     c_str = ''
