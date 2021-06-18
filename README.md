@@ -6,12 +6,13 @@ This project includes information for training a model in tensorflow, converting
 Takeaways:
 
 Pros
-- Compared to TF Lite for Microcontrollers, xCube AI uses about 40% less flash space, and is about 25% faster
+- Compared to TF Lite for Microcontrollers, xCube AI uses about 40% less flash space, and is about 25% faster (for this project)
 - Out of the different libraries explored, cubeIDE has been the easiest to work with
 - Can easily accept pre-trained models from keras and tflite
 
 Cons
 - xCube AI is closed source
+- xCube used about 4% more RAM than TF Lite for microcontrollers (for this project)
 
 
 NOTICE:
